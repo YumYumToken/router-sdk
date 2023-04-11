@@ -1598,18 +1598,6 @@
     "@uniswap/v3-periphery" "1.3.0"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/swap-router-contracts@^1.2.1":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/swap-router-contracts/-/swap-router-contracts-1.3.0.tgz#8d555ca6d74b888d6e02a26ebb806ce315605f1f"
-  integrity sha512-iKvCuRkHXEe0EMjOf8HFUISTIhlxI57kKFllf3C3PUIE0HmwxrayyoflwAz5u/TRsFGYqJ9IjX2UgzLCsrNa5A==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    "@uniswap/v3-periphery" "1.4.1"
-    dotenv "^14.2.0"
-    hardhat-watcher "^2.1.1"
-
 "@uniswap/v2-core@1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@uniswap/v2-core/-/v2-core-1.0.1.tgz"
@@ -1643,45 +1631,12 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v3-periphery@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-periphery/-/v3-periphery-1.4.1.tgz#b90f08b7386163c0abfd7258831caef6339c7862"
-  integrity sha512-Ab0ZCKOQrQMKIcpBTezTsEhWfQjItd0TtkCG8mPhoQu+wC67nPaf4hYUhM6wGHeFUmDiYY5MpEQuokB0ENvoTg==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@uniswap/lib" "^4.0.1-alpha"
-    "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    base64-sol "1.0.1"
-    hardhat-watcher "^2.1.1"
-
-"@uniswap/v3-periphery@^1.0.1":
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/@uniswap/v3-periphery/-/v3-periphery-1.2.1.tgz"
-  integrity sha512-45W8hT8X1j9ZcXa+y3NSVao90hMZtgtoJyDlMOg91wmUGi2idXAiGivOQYdB7+7Lq8Gc6Upv/ggFZknixZrv7g==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
-    "@uniswap/lib" "^4.0.1-alpha"
-    "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    base64-sol "1.0.1"
-    hardhat-watcher "^2.1.1"
-
-"@uniswap/v3-staker@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@uniswap/v3-staker/-/v3-staker-1.0.0.tgz"
-  integrity sha512-JV0Qc46Px5alvg6YWd+UIaGH9lDuYG/Js7ngxPit1SPaIP30AlVer1UYB7BRYeUVVxE+byUyIeN5jeQ7LLDjIw==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
-    "@uniswap/v3-core" "1.0.0"
-    "@uniswap/v3-periphery" "^1.0.1"
-
-"@yumyumswap/contract-core@1.0.1":
+"@yumyumswap/contract-core@1.0.0", "@yumyumswap/contract-core@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@yumyumswap/contract-core/-/contract-core-1.0.1.tgz#5c3f9f36290f0e75a62db93ef89f419430d0a081"
   integrity sha512-s1JOSis4gFzJVsFQILb08reQe+AMzjklUQI6gQ1bCruh/A/5mM0meihRxmvtIrC4t8KBwp2SccP0kfnZo5jOFw==
 
-"@yumyumswap/contract-periphery@^1.1.1":
+"@yumyumswap/contract-periphery@1.4.1", "@yumyumswap/contract-periphery@^1.0.1", "@yumyumswap/contract-periphery@^1.1.1":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@yumyumswap/contract-periphery/-/contract-periphery-1.4.3.tgz#edcb3cbc729833cc437510c60d0a93707bfe7908"
   integrity sha512-MfNFzw5bcjzXP+dxECIWyJuR9ok6gvTvzplD9BSnxFUAb2PWGqVfWHoJsK0392wdiNKoIkINe7/i6osMBGyOTg==
@@ -1692,17 +1647,38 @@
     "@yumyumswap/contract-core" "1.0.1"
     base64-sol "1.0.1"
 
-"@yumyumswap/swap-sdk@^3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-sdk/-/swap-sdk-3.9.0.tgz#5a66e2182a38e04ab04e02939f30b205f05261b5"
-  integrity sha512-ox8snmS0bDVdkCRkk/uxJ6IkeHFkmckKtNDTIcvb2yjTXtuBhLRefGNLYEJ0UDTQMoJ12uGJzv9w1zdQluK0Hw==
+"@yumyumswap/contract-staker@1.0.0":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-staker/-/contract-staker-1.0.2.tgz#13870db86afc4b6c7788b8dbee316f143ca17909"
+  integrity sha512-ohVvEhvUa4SxPVJuf0inmz0OTNULHPp/chvmApS9a8mD39czD3M4JPq8voBjbpShd1KCanZ/EFzXoCUU9aBiyw==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
+    "@yumyumswap/contract-core" "1.0.0"
+    "@yumyumswap/contract-periphery" "^1.0.1"
+
+"@yumyumswap/swap-router-contracts@^1.2.1":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-router-contracts/-/swap-router-contracts-1.3.0.tgz#6cb098ea7df602a247822063d303c44f89890053"
+  integrity sha512-KX9Y5YxsE6e29AcnNY7F7j3JzBB3u0s83YsnTWAQv3u2coPTGfa6g8jv6AzOi7ikl5zbtLtASW9XlAtmHAG2cQ==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/v2-core" "1.0.1"
+    "@yumyumswap/contract-core" "1.0.0"
+    "@yumyumswap/contract-periphery" "1.4.1"
+    dotenv "^14.2.0"
+    hardhat-watcher "^2.1.1"
+
+"@yumyumswap/swap-sdk@^3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-sdk/-/swap-sdk-3.9.1.tgz#c12b0cbffc3efd6a71797c5b4e41d963a71b8f7e"
+  integrity sha512-mlIK7BJnbsfo9bnRId9Z+zvAYdcRdrdUtu4quLW2VSaPinYAEcgdo8HrjJfTzb+slI20Wd3zmzvRMncgbiDiiA==
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
     "@uniswap/sdk-core" "^3.0.1"
-    "@uniswap/swap-router-contracts" "^1.2.1"
-    "@uniswap/v3-staker" "1.0.0"
     "@yumyumswap/contract-periphery" "^1.1.1"
+    "@yumyumswap/contract-staker" "1.0.0"
+    "@yumyumswap/swap-router-contracts" "^1.2.1"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
