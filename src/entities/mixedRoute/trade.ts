@@ -1,5 +1,5 @@
-import { Currency, Fraction, Percent, Price, sortedInsert, CurrencyAmount, TradeType, Token } from '@uniswap/sdk-core'
-import { Pair } from '@uniswap/v2-sdk'
+import { Currency, Fraction, Percent, Price, sortedInsert, CurrencyAmount, TradeType, Token } from '@yumyumswap/sdk-core'
+import { Pair } from '@yumyumswap/v2-sdk'
 import { BestTradeOptions, Pool } from '@yumyumswap/swap-sdk'
 import invariant from 'tiny-invariant'
 import { ONE, ZERO } from '../../constants'

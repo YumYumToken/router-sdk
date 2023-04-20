@@ -1,8 +1,8 @@
-import { Ether, Token, WETH9, CurrencyAmount, Currency } from '@uniswap/sdk-core'
+import { Ether, Token, WETH9, CurrencyAmount, Currency } from '@yumyumswap/sdk-core'
 import { Route as V3RouteSDK, Pool, FeeAmount, TickMath, encodeSqrtRatioX96 } from '@yumyumswap/swap-sdk'
 import { MixedRoute, RouteV3 } from '../route'
 import { Protocol } from '../protocol'
-import { Route as V2RouteSDK, Pair } from '@uniswap/v2-sdk'
+import { Route as V2RouteSDK, Pair } from '@yumyumswap/v2-sdk'
 import { MixedRouteSDK } from './route'
 import { partitionMixedRouteByProtocol } from '../../utils'
 

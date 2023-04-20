@@ -1,7 +1,7 @@
 import { Interface } from '@ethersproject/abi'
-import { Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress, WETH9 } from '@uniswap/sdk-core'
-import { abi } from '@uniswap/swap-router-contracts/artifacts/contracts/interfaces/ISwapRouter02.sol/ISwapRouter02.json'
-import { Trade as V2Trade } from '@uniswap/v2-sdk'
+import { Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress, WETH9 } from '@yumyumswap/sdk-core'
+import { abi } from '@yumyumswap/swap-router-contracts/artifacts/contracts/interfaces/ISwapRouter02.sol/ISwapRouter02.json'
+import { Trade as V2Trade } from '@yumyumswap/v2-sdk'
 import {
   encodeRouteToPath,
   FeeOptions,

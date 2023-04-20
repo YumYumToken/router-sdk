@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Fraction, Percent, Price, TradeType } from '@uniswap/sdk-core'
-import { Pair, Route as V2RouteSDK, Trade as V2TradeSDK } from '@uniswap/v2-sdk'
+import { Currency, CurrencyAmount, Fraction, Percent, Price, TradeType } from '@yumyumswap/sdk-core'
+import { Pair, Route as V2RouteSDK, Trade as V2TradeSDK } from '@yumyumswap/v2-sdk'
 import { Pool, Route as V3RouteSDK, Trade as V3TradeSDK } from '@yumyumswap/swap-sdk'
 import invariant from 'tiny-invariant'
 import { ONE, ZERO } from '../constants'

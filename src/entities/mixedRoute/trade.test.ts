@@ -1,5 +1,5 @@
-import { Percent, Price, sqrt, Token, CurrencyAmount, TradeType, WETH9, Ether, Currency } from '@uniswap/sdk-core'
-import { Pair } from '@uniswap/v2-sdk'
+import { Percent, Price, sqrt, Token, CurrencyAmount, TradeType, WETH9, Ether, Currency } from '@yumyumswap/sdk-core'
+import { Pair } from '@yumyumswap/v2-sdk'
 import { encodeSqrtRatioX96, FeeAmount, nearestUsableTick, Pool, TickMath, TICK_SPACINGS } from '@yumyumswap/swap-sdk'
 import JSBI from 'jsbi'
 import { MixedRouteSDK } from './route'

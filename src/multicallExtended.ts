@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
-import { BigintIsh } from '@uniswap/sdk-core'
-import { abi } from '@uniswap/swap-router-contracts/artifacts/contracts/interfaces/IMulticallExtended.sol/IMulticallExtended.json'
+import { BigintIsh } from '@yumyumswap/sdk-core'
+import { abi } from '@yumyumswap/swap-router-contracts/artifacts/contracts/interfaces/IMulticallExtended.sol/IMulticallExtended.json'
 import { Multicall, toHex } from '@yumyumswap/swap-sdk'
 
 // deadline or previousBlockhash

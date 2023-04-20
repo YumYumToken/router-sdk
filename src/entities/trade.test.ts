@@ -1,4 +1,4 @@
-import { sqrt, Token, CurrencyAmount, TradeType, WETH9, Ether, Percent, Price } from '@uniswap/sdk-core'
+import { sqrt, Token, CurrencyAmount, TradeType, WETH9, Ether, Percent, Price } from '@yumyumswap/sdk-core'
 import JSBI from 'jsbi'
 import { MixedRoute, RouteV2, RouteV3 } from './route'
 import { Trade } from './trade'
@@ -11,7 +11,7 @@ import {
   nearestUsableTick,
   encodeSqrtRatioX96,
 } from '@yumyumswap/swap-sdk'
-import { Pair, Route as V2RouteSDK } from '@uniswap/v2-sdk'
+import { Pair, Route as V2RouteSDK } from '@yumyumswap/v2-sdk'
 import { MixedRouteSDK } from './mixedRoute/route'
 
 describe('Trade', () => {

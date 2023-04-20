@@ -1,5 +1,5 @@
-import { CurrencyAmount, Ether, Token, WETH9 } from '@uniswap/sdk-core'
-import { Pair } from '@uniswap/v2-sdk'
+import { CurrencyAmount, Ether, Token, WETH9 } from '@yumyumswap/sdk-core'
+import { Pair } from '@yumyumswap/v2-sdk'
 import { encodeSqrtRatioX96, FeeAmount, Pool } from '@yumyumswap/swap-sdk'
 import { MixedRouteSDK } from '../entities/mixedRoute/route'
 import { encodeMixedRouteToPath } from './encodeMixedRouteToPath'

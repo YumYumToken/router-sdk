@@ -1,5 +1,5 @@
-import { BigintIsh, CurrencyAmount, Ether, Percent, Token, TradeType, WETH9 } from '@uniswap/sdk-core'
-import { Pair, Route as V2Route, Trade as V2Trade } from '@uniswap/v2-sdk'
+import { BigintIsh, CurrencyAmount, Ether, Percent, Token, TradeType, WETH9 } from '@yumyumswap/sdk-core'
+import { Pair, Route as V2Route, Trade as V2Trade } from '@yumyumswap/v2-sdk'
 import {
   encodeSqrtRatioX96,
   FeeAmount,

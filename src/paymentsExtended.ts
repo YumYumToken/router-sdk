@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
-import { Percent, Token, validateAndParseAddress } from '@uniswap/sdk-core'
-import { abi } from '@uniswap/swap-router-contracts/artifacts/contracts/interfaces/IPeripheryPaymentsWithFeeExtended.sol/IPeripheryPaymentsWithFeeExtended.json'
+import { Percent, Token, validateAndParseAddress } from '@yumyumswap/sdk-core'
+import { abi } from '@yumyumswap/swap-router-contracts/artifacts/contracts/interfaces/IPeripheryPaymentsWithFeeExtended.sol/IPeripheryPaymentsWithFeeExtended.json'
 import { FeeOptions, Payments, toHex } from '@yumyumswap/swap-sdk'
 import JSBI from 'jsbi'
 

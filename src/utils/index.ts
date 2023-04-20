@@ -1,5 +1,5 @@
-import { Currency, Token } from '@uniswap/sdk-core'
-import { Pair } from '@uniswap/v2-sdk'
+import { Currency, Token } from '@yumyumswap/sdk-core'
+import { Pair } from '@yumyumswap/v2-sdk'
 import { Pool } from '@yumyumswap/swap-sdk'
 import { MixedRouteSDK } from '../entities/mixedRoute/route'
 
