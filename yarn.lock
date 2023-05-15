@@ -1629,10 +1629,10 @@
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
-"@yumyumswap/swap-sdk@^3.9.2":
-  version "3.9.2"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-sdk/-/swap-sdk-3.9.2.tgz#1e05ace8137c18f80b03ba97125b0ea0440732ad"
-  integrity sha512-dTYnaSlAkCrXn0K9tAnkoQ8IIKD76xKii0GaU6l1UR+qZLbZaM3gVIP6pAXwmoulOavjlQJUnJZ+VjdjoTcdag==
+"@yumyumswap/swap-sdk@^3.9.3":
+  version "3.9.3"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-sdk/-/swap-sdk-3.9.3.tgz#87ada8893a45c6638f6ab428bee9e56596b2cf80"
+  integrity sha512-7BBb8w6wESOTGdHVRY1Z6r2sbfaRBhRzlG6Ug6mzQtiJvA3Fat6Z7AQTtqoQ5hebU93iWMIHrlMg9XWvCNssrA==
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
