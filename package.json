@@ -1,6 +1,6 @@
 {
   "name": "@yumyumswap/router-sdk",
-  "version": "1.4.3",
+  "version": "5.0.1",
   "description": "An sdk for routing swaps using YumYumSwap.",
   "publishConfig": {
     "access": "public"
@@ -27,10 +27,10 @@
   "license": "MIT",
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
-    "@yumyumswap/sdk-core": "^3.2.2",
-    "@yumyumswap/swap-router-contracts": "^1.3.0",
-    "@yumyumswap/v2-sdk": "^3.0.1",
-    "@yumyumswap/swap-sdk": "^3.9.3"
+    "@yumyumswap/sdk-core": "^5.0.2",
+    "@yumyumswap/swap-router-contracts": "^5.0.1",
+    "@yumyumswap/v2-sdk": "^5.0.1",
+    "@yumyumswap/swap-sdk": "^5.0.1"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
